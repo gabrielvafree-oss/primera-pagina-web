@@ -1,0 +1,71 @@
+.habitat-card {
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(255, 193, 7, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+#bg-libelula {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url('charcas.jpg');
+}
+
+#bg-hiena {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url('sabana.jpg');
+}
+
+#bg-leon {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url('llanura.jpg');
+}
+
+.glass-content {
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #f1f1f1;
+}
+
+.nature-bg {
+    background-color: #0b0d0f;
+    background-image: radial-gradient(circle at center, #1a1c20 0%, #08090a 100%);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+.glass-nav {
+    background: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 193, 7, 0.2);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+    margin: 0 5px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.contenido-limpio {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
